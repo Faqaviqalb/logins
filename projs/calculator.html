@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+</head>
+<body>
+        <div class="container">
+        <div id="whole">
+                <div class="right">
+                        <div id="show-one">
+                                <p class="inputs">عدد اول :</p>
+                                <input type="text" class="input" id="input" placeholder="عدد اول را وارد کنید"><br>
+                                <div class="hide" id="txt">*عددی وارد نشده است.</div>
+                        </div>
+                        <div id="show-one">
+                                <p class="inputs">عدد دوم :</p>
+                                <input type="text" class="input" id="inputTwo" placeholder="عدد دوم را وارد کنید"><br>
+                                <div class="hide" id="txtTwo">*عددی  وارد نشده است.</div>
+                        </div>
+                </div>
+
+                <div class="left">
+                        <div class="oneLine">
+                                <p class="inputsDown"> عددها وارد کنید :</p>
+                                <input type="text" class="inputDown" id="userInput" placeholder="عدد اول- عدد دوم" pattern="[0-9]{2}-[0-9]{3}">
+                                <div class="hideMe" >*لطفا هر دو عدد را وارد کنید.</div>
+                        </div>
+        
+                </div>
+        </div>
+
+        <div class="buttons">
+
+            <div class="plus btn" id="one"><button><i class="mdi mdi-plus"></i></button> </div>
+            <div class="minus btn"><button><i class="mdi mdi-minus"></i></button> </div>
+            <div class="multiply btn"><button><i class="mdi mdi-close"></i></button> </div>
+            <div class="divide btn"><button><i class="mdi mdi-slash-forward"></i></button> </div>
+        </div>
+        <div class="down">
+                <div class="right">
+                        <div class="result">
+                                <div class="first">
+                                        <p class="myResult"> عدد اول : </p>
+                                        <div class="inputsOne"></div>
+                                </div>
+                                <div class="second">
+                                        <p class="myResult"> عدد دوم : </p>
+                                        <div class="inputsTwo"></div>
+                                </div>
+                                <hr>
+                                <div class="final">
+                                        <p class="finalResult">حاصل : </p>
+                                        <div id="final"></div>
+                                </div>
+                                
+                                
+                        </div>
+                </div>
+                <div class="left">
+                        <div class="result">
+                                <div class="firstDown">
+                                        <p class="myResultDown"> عدد اول : </p>
+                                        <div class="inputsOneDown"></div>
+                                </div>
+                                <div class="secondDown">
+                                        <p class="myResultDown"> عدد دوم : </p>
+                                        <div class="inputsTwoDown"></div>
+                                </div>
+                                <hr>
+                                <div class="finalDown">
+                                        <p class="finalResultDown">حاصل : </p>
+                                        <div id="finalDown"></div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+
+
+<script src="calculator.js"></script>
+    
+</body>
+</html>

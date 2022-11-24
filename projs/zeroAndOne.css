@@ -1,0 +1,95 @@
+
+
+@font-face{
+    font-family: 'Yekan';
+    src : url('fonts/Yekan.woff');
+}
+*{
+    font-family: 'Yekan';
+    box-sizing: border-box; 
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #725407be;
+    width: 1160px;
+    overflow-x: hidden;
+    
+}
+.header{
+    display: flex;
+    position: relative;
+    top: 80px;
+    right: 400px;
+}
+.input{
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 15px;
+    position: relative;
+    bottom: 15px;
+}
+.inputTwo{
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 15px;
+    position: relative;
+    bottom: 15px;
+    right: 30px;
+    
+}
+.put{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    right: 10px;
+    bottom: 7px;
+    background-color: rgba(255, 255, 255, 0.74);
+    border: none;
+    margin: 0;
+    padding-right: 10px;
+    font-size: 16px;
+}
+.put:focus{
+    border: 1.5px solid  rgba(0, 0, 0, 0.192);
+    outline: none;
+    box-shadow: 1px 1px 10px rgb(81, 255, 0);
+}
+.two{
+    right: 40px;
+}
+button{
+    width: 80px;
+    height: 39px;
+    border-radius: 10px;
+    position: relative;
+    right: 50px;
+    bottom: 7px;
+    background-color: rgba(255, 251, 0, 0.507);
+}
+.box{
+    background-color: rgba(255, 255, 255, 0.753);
+    width: 800px;
+    height: 350px;
+    position: relative;
+    right: 300px;
+    top: 150px;
+    border-radius: 10px;
+}
+.bracketRight{
+    font-size: 250px;
+    position: relative;
+    bottom: 100px;
+}
+.bracketLeft{
+    font-size: 250px;
+    position: relative;
+    bottom: 600px;
+    right: 720px;
+}
+#box{
+    font-size: 30px;
+    position: relative;
+    right: 200px;
+    bottom: 965px;
+
+}
