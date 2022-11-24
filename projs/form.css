@@ -1,0 +1,35 @@
+
+@font-face{
+    font-family: 'Yekan';
+    src : url('fonts/Yekan.woff');
+}
+*{
+    font-family: 'Yekan';
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+thead{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.767);
+}
+#btn{
+    width: 60px;
+    height: 40px;
+}
+#delete{
+    width: 60px;
+    background-color: rgb(230, 98, 98);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    margin-left: 5px;
+}
+#edit{
+    width: 60px;
+    background-color: rgb(107, 226, 71);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
